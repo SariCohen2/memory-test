@@ -1,0 +1,63 @@
+ <!DOCTYPE html>
+<html lang="en" id="html">
+<head><link rel="stylesheet" href="./2.css">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>🎲משחק זיכרון🎲</title>
+</head>
+<body id="body">
+    <header id="header">משחק זיכרון
+    </header>
+
+    <nav id="mainNav">
+ 
+        <audio id="audio" src="./music/audio3.wav" autoplay></audio>
+        <audio id="audio19"  src="./music/19.mp3" autoplay></audio>
+        <audio id="win" src="./music/victory.wav" autoplay></audio>
+        <div id="v"></div>
+        <button id="myBtn" class="nav">הוראות משחק</button>
+        <div id="myModal" class="modal">
+            <div class="modal-content">
+              <div class="modal-header">
+                <span class="close">&times;</span>
+                <h2 style="text-align:right"> הוראות משחק</h2>
+                <p  id="btnScore"  >
+               :שיאים
+                </p>
+                  <div id="score">
+                  </div>
+              </div>
+              <div class="modal-body" >
+                <p>  עליך למצוא את כל הזוגות המוסתרים , ע"י לחיצה על שני קלפים כל פעם, אם שני הקלפים שמצאת הם זהים הקלפים יישארו גלויים. המשחק ייגמר כאשר תמצא את כל הזוגות
+                </p>
+                  <div><img src="./pics/3!!.jpg" style="position: absolute;left: 1px;top:30%;width: 100%;filter: blur(2px);height: 60%;opacity: 0.5;bottom: 50px;" alt=""></div>
+                  <div style="display: inline;"  > 
+                </div>
+              </div>
+              <div class="modal-footer">
+                <h3> !!בהצלחה</h3>
+              </div>
+            </div>
+          </div>
+          <!-- <div id="timer"><div id="window"></div></div> -->
+        <button  onclick="startGame(12);"  class="nav" id="btn1">רמה קל</button>
+        <button onclick="startGame(20);" class="nav" id="btn2">רמה בינוני</button>
+        <button onclick="startGame(30);" class="nav" id="btn3">רמה קשה</button>
+        <!-- <div id="overlay" onclick="off()"> -->
+        </div>
+
+        <div id="window"></div>
+    </nav>
+    <span id="line">  <div ></div>  </span>
+    <main id="main">
+        <div id="box">
+</div>
+    </main>
+    <footer id="footer">© כל הזכויות שמורות לשרי כהן  
+    </footer>
+</body>
+
+<script src="3.js">
+</script>
+</html> 
