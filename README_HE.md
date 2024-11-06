@@ -1,3 +1,5 @@
+[Read this in English](README.md)
+
 # 🌟 חווית זיכרון אינטראקטיבית 🌟
 
 ברוכים הבאים לחווית זיכרון אינטראקטיבית, שנבנתה בעזרת **JavaScript**, **HTML** ו-**CSS**. הפרויקט מציע חוויית משתמש חכמה עם עיצוב מודרני וקל לשימוש, המיועדת לילדים אך מתאימה גם למבוגרים. כל רמה מציעה אתגר חדש לשיפור יכולות הזיכרון.
