@@ -1,4 +1,4 @@
-[Read this in Hebrew](README-HE.md)
+[Read this in Hebrew](README_HE.md)
 
 # 🌟 Interactive Memory Experience 🌟 
 
