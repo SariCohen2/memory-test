@@ -1,4 +1,6 @@
-# 🌟 Interactive Memory Experience 🌟
+[Read this in Hebrew](README-HE.md)
+
+# 🌟 Interactive Memory Experience 🌟 
 
 Welcome to the Interactive Memory Experience, built with **JavaScript**, **HTML**, and **CSS**. This project offers a smart, user-friendly experience with modern design, created for children but enjoyable for all ages. Each level introduces new challenges to help improve memory skills.
 
